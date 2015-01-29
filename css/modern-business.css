@@ -1,0 +1,215 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+#services li {
+    font-size: 20px;
+}
+
+#services li:first-child {
+    list-style-type: none;
+    font-weight: bold;
+    margin-bottom: 10px;   
+}
+
+figure {
+    display: inline-block;
+    text-align: center;   
+}
+
+figcaption {
+    margin: -18px;
+}
+
+.photoGallery {
+    display: inline-block;
+}
+
+.photoGallery img {
+    margin: 22px;
+}
+
+p {
+    font-size: 20px;
+}
+
+article {
+    padding: 80px 0;
+}
+
+article h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+article.success {
+    color: #fff;
+}
+
+.titleBox {
+    display: inline-block;
+    background: #CCB771;
+	width: 300px;
+	height: 40px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+p.small {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 1.8em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    background: #fff;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+	
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+
+
+
+
+html,
+body {
+    height: 100%;
+	/*background: url(../img/bg3.jpg);
+	background-size:  100%;
+	background-repeat: no-repeat; */
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+section.carousel {
+    height: 50%;
+}
+
+section.carousel .item,
+section.carousel .item.active,
+section.carousel .carousel-inner {
+    height: 100%;
+}
+
+section.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Footer Styles */
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    section.carousel .carousel {
+        height: 70%;
+    }
+}
